@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  ItunceApp
+
+  Created by Zhutenkov Alexei on 23/09/16.
+  Copyright © 2016 Zhutenkov Alexei. All rights reserved.
+*/
+
+/* Controlls */
+"SEARCH_BUTTON_TITLE" = "Найти";
+"OK_BUTTON" = "Ok";
+
+/* Error handler*/
+"INTERNET_NOT_REACH_ERROR_TEXT" = "Интернет соединение не доступно";
+"KEYWORD_IS_SHORT_ERROR_TEXT" = "Короткое ключевое слово";

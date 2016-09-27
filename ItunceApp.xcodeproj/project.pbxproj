@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8E92B591D9A5EBF0087765B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E92B581D9A5EBF0087765B /* main.m */; };
+		C8E92B5C1D9A5EBF0087765B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E92B5B1D9A5EBF0087765B /* AppDelegate.m */; };
+		C8E92B671D9A5EBF0087765B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8E92B651D9A5EBF0087765B /* LaunchScreen.storyboard */; };
+		C8E92B721D9A5EBF0087765B /* ItunceAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E92B711D9A5EBF0087765B /* ItunceAppTests.m */; };
+		C8E92B7D1D9A5EBF0087765B /* ItunceAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E92B7C1D9A5EBF0087765B /* ItunceAppUITests.m */; };
+		C8E92B8C1D9A603E0087765B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8E92B8B1D9A603E0087765B /* Assets.xcassets */; };
+		C8E92B9C1D9A61920087765B /* IASearchPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E92B9B1D9A61920087765B /* IASearchPanelView.m */; };
+		C8E92BA01D9A627D0087765B /* IAFetchSongsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E92B9F1D9A627D0087765B /* IAFetchSongsViewController.m */; };
+		C8E92BA41D9A62D60087765B /* IASongTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E92BA31D9A62D60087765B /* IASongTableViewCell.m */; };
+		C8E92BA81D9A63420087765B /* IAPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E92BA71D9A63420087765B /* IAPlayerViewController.m */; };
+		C8E92BAB1D9A63960087765B /* IAPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E92BAA1D9A63960087765B /* IAPlayerView.m */; };
+		C8E92BAE1D9A63E00087765B /* IAErrorHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E92BAD1D9A63E00087765B /* IAErrorHandler.m */; };
+		C8E92BB11D9A643D0087765B /* IANetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E92BB01D9A643D0087765B /* IANetworkManager.m */; };
+		C8E92BB41D9A64940087765B /* IASongResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E92BB31D9A64940087765B /* IASongResult.m */; };
+		C8E92BB71D9A64E10087765B /* IAResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E92BB61D9A64E10087765B /* IAResponse.m */; };
+		C8E92BB91D9A659E0087765B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8E92BB81D9A659E0087765B /* AVFoundation.framework */; };
+		C8E92BBD1D9A667A0087765B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C8E92BBB1D9A667A0087765B /* Localizable.strings */; };
+		F0B77981EC2B56BC339635F1 /* libPods-ItunceApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B322F1A090D36F4505799976 /* libPods-ItunceApp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8E92B6E1D9A5EBF0087765B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8E92B4C1D9A5EBF0087765B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8E92B531D9A5EBF0087765B;
+			remoteInfo = ItunceApp;
+		};
+		C8E92B791D9A5EBF0087765B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8E92B4C1D9A5EBF0087765B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8E92B531D9A5EBF0087765B;
+			remoteInfo = ItunceApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18EE47C78B253D10E64D2C12 /* Pods-ItunceApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItunceApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ItunceApp/Pods-ItunceApp.release.xcconfig"; sourceTree = "<group>"; };
+		B322F1A090D36F4505799976 /* libPods-ItunceApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ItunceApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C819D40F1D9A669E00138B2E /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C8E92B541D9A5EBF0087765B /* ItunceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItunceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8E92B581D9A5EBF0087765B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C8E92B5A1D9A5EBF0087765B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C8E92B5B1D9A5EBF0087765B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C8E92B661D9A5EBF0087765B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8E92B681D9A5EBF0087765B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8E92B6D1D9A5EBF0087765B /* ItunceAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ItunceAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8E92B711D9A5EBF0087765B /* ItunceAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItunceAppTests.m; sourceTree = "<group>"; };
+		C8E92B731D9A5EBF0087765B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8E92B781D9A5EBF0087765B /* ItunceAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ItunceAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8E92B7C1D9A5EBF0087765B /* ItunceAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItunceAppUITests.m; sourceTree = "<group>"; };
+		C8E92B7E1D9A5EBF0087765B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8E92B8B1D9A603E0087765B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+		C8E92B8D1D9A60640087765B /* IAPrefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPrefix.pch; sourceTree = "<group>"; };
+		C8E92B961D9A61220087765B /* IAPlayerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IAPlayerProtocol.h; path = Protocols/IAPlayerProtocol.h; sourceTree = "<group>"; };
+		C8E92B981D9A61430087765B /* IASongProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IASongProtocol.h; path = Protocols/IASongProtocol.h; sourceTree = "<group>"; };
+		C8E92B9A1D9A61920087765B /* IASearchPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IASearchPanelView.h; path = Views/IASearchPanelView.h; sourceTree = "<group>"; };
+		C8E92B9B1D9A61920087765B /* IASearchPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IASearchPanelView.m; path = Views/IASearchPanelView.m; sourceTree = "<group>"; };
+		C8E92B9E1D9A627D0087765B /* IAFetchSongsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IAFetchSongsViewController.h; path = Controllers/FetchSongs/IAFetchSongsViewController.h; sourceTree = "<group>"; };
+		C8E92B9F1D9A627D0087765B /* IAFetchSongsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IAFetchSongsViewController.m; path = Controllers/FetchSongs/IAFetchSongsViewController.m; sourceTree = "<group>"; };
+		C8E92BA21D9A62D60087765B /* IASongTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IASongTableViewCell.h; path = Controllers/FetchSongs/IASongTableViewCell.h; sourceTree = "<group>"; };
+		C8E92BA31D9A62D60087765B /* IASongTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IASongTableViewCell.m; path = Controllers/FetchSongs/IASongTableViewCell.m; sourceTree = "<group>"; };
+		C8E92BA61D9A63420087765B /* IAPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IAPlayerViewController.h; path = Controllers/Player/IAPlayerViewController.h; sourceTree = "<group>"; };
+		C8E92BA71D9A63420087765B /* IAPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IAPlayerViewController.m; path = Controllers/Player/IAPlayerViewController.m; sourceTree = "<group>"; };
+		C8E92BA91D9A63960087765B /* IAPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IAPlayerView.h; path = Controllers/Player/IAPlayerView.h; sourceTree = "<group>"; };
+		C8E92BAA1D9A63960087765B /* IAPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IAPlayerView.m; path = Controllers/Player/IAPlayerView.m; sourceTree = "<group>"; };
+		C8E92BAC1D9A63E00087765B /* IAErrorHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IAErrorHandler.h; path = Classes/Handlers/IAErrorHandler.h; sourceTree = "<group>"; };
+		C8E92BAD1D9A63E00087765B /* IAErrorHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IAErrorHandler.m; path = Classes/Handlers/IAErrorHandler.m; sourceTree = "<group>"; };
+		C8E92BAF1D9A643D0087765B /* IANetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IANetworkManager.h; path = Classes/Managers/NetworkManager/IANetworkManager.h; sourceTree = "<group>"; };
+		C8E92BB01D9A643D0087765B /* IANetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IANetworkManager.m; path = Classes/Managers/NetworkManager/IANetworkManager.m; sourceTree = "<group>"; };
+		C8E92BB21D9A64940087765B /* IASongResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IASongResult.h; path = Classes/Managers/NetworkManager/Models/IASongResult.h; sourceTree = "<group>"; };
+		C8E92BB31D9A64940087765B /* IASongResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IASongResult.m; path = Classes/Managers/NetworkManager/Models/IASongResult.m; sourceTree = "<group>"; };
+		C8E92BB51D9A64E10087765B /* IAResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IAResponse.h; path = Classes/Managers/NetworkManager/Models/IAResponse.h; sourceTree = "<group>"; };
+		C8E92BB61D9A64E10087765B /* IAResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IAResponse.m; path = Classes/Managers/NetworkManager/Models/IAResponse.m; sourceTree = "<group>"; };
+		C8E92BB81D9A659E0087765B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C8E92BBA1D9A66380087765B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		C8E92BBC1D9A667A0087765B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DE70D1703C05A7D865A248B8 /* Pods-ItunceApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ItunceApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ItunceApp/Pods-ItunceApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8E92B511D9A5EBF0087765B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E92BB91D9A659E0087765B /* AVFoundation.framework in Frameworks */,
+				F0B77981EC2B56BC339635F1 /* libPods-ItunceApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8E92B6A1D9A5EBF0087765B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8E92B751D9A5EBF0087765B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4124D3B74C834F76FECBB5E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE70D1703C05A7D865A248B8 /* Pods-ItunceApp.debug.xcconfig */,
+				18EE47C78B253D10E64D2C12 /* Pods-ItunceApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B9587474BF5EA707732A636A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8E92BB81D9A659E0087765B /* AVFoundation.framework */,
+				B322F1A090D36F4505799976 /* libPods-ItunceApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8E92B4B1D9A5EBF0087765B = {
+			isa = PBXGroup;
+			children = (
+				C8E92B561D9A5EBF0087765B /* ItunceApp */,
+				C8E92B701D9A5EBF0087765B /* ItunceAppTests */,
+				C8E92B7B1D9A5EBF0087765B /* ItunceAppUITests */,
+				C8E92B551D9A5EBF0087765B /* Products */,
+				4124D3B74C834F76FECBB5E5 /* Pods */,
+				B9587474BF5EA707732A636A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C8E92B551D9A5EBF0087765B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8E92B541D9A5EBF0087765B /* ItunceApp.app */,
+				C8E92B6D1D9A5EBF0087765B /* ItunceAppTests.xctest */,
+				C8E92B781D9A5EBF0087765B /* ItunceAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8E92B561D9A5EBF0087765B /* ItunceApp */ = {
+			isa = PBXGroup;
+			children = (
+				C8E92B911D9A60C40087765B /* Protocols */,
+				C8E92B901D9A60BD0087765B /* Controllers */,
+				C8E92B8F1D9A60B50087765B /* Views */,
+				C8E92B8E1D9A60AF0087765B /* Classes */,
+				C8E92B8A1D9A60260087765B /* Resources */,
+				C8E92B5A1D9A5EBF0087765B /* AppDelegate.h */,
+				C8E92B5B1D9A5EBF0087765B /* AppDelegate.m */,
+				C8E92B651D9A5EBF0087765B /* LaunchScreen.storyboard */,
+				C8E92B681D9A5EBF0087765B /* Info.plist */,
+				C8E92B571D9A5EBF0087765B /* Supporting Files */,
+			);
+			path = ItunceApp;
+			sourceTree = "<group>";
+		};
+		C8E92B571D9A5EBF0087765B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8E92B8D1D9A60640087765B /* IAPrefix.pch */,
+				C8E92B581D9A5EBF0087765B /* main.m */,
+				C8E92BBB1D9A667A0087765B /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C8E92B701D9A5EBF0087765B /* ItunceAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8E92B711D9A5EBF0087765B /* ItunceAppTests.m */,
+				C8E92B731D9A5EBF0087765B /* Info.plist */,
+			);
+			path = ItunceAppTests;
+			sourceTree = "<group>";
+		};
+		C8E92B7B1D9A5EBF0087765B /* ItunceAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C8E92B7C1D9A5EBF0087765B /* ItunceAppUITests.m */,
+				C8E92B7E1D9A5EBF0087765B /* Info.plist */,
+			);
+			path = ItunceAppUITests;
+			sourceTree = "<group>";
+		};
+		C8E92B8A1D9A60260087765B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C8E92B8B1D9A603E0087765B /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C8E92B8E1D9A60AF0087765B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C8E92B951D9A60E70087765B /* Handlers */,
+				C8E92B921D9A60CC0087765B /* Managers */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		C8E92B8F1D9A60B50087765B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C8E92B991D9A61760087765B /* SearchPanel */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C8E92B901D9A60BD0087765B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C8E92BA51D9A63100087765B /* Player */,
+				C8E92B9D1D9A61E70087765B /* FetchSong */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C8E92B911D9A60C40087765B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C8E92B961D9A61220087765B /* IAPlayerProtocol.h */,
+				C8E92B981D9A61430087765B /* IASongProtocol.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		C8E92B921D9A60CC0087765B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C8E92B931D9A60D80087765B /* NetworkManager */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		C8E92B931D9A60D80087765B /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				C8E92B941D9A60E00087765B /* Models */,
+				C8E92BAF1D9A643D0087765B /* IANetworkManager.h */,
+				C8E92BB01D9A643D0087765B /* IANetworkManager.m */,
+			);
+			name = NetworkManager;
+			sourceTree = "<group>";
+		};
+		C8E92B941D9A60E00087765B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C8E92BB21D9A64940087765B /* IASongResult.h */,
+				C8E92BB31D9A64940087765B /* IASongResult.m */,
+				C8E92BB51D9A64E10087765B /* IAResponse.h */,
+				C8E92BB61D9A64E10087765B /* IAResponse.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C8E92B951D9A60E70087765B /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				C8E92BAC1D9A63E00087765B /* IAErrorHandler.h */,
+				C8E92BAD1D9A63E00087765B /* IAErrorHandler.m */,
+			);
+			name = Handlers;
+			sourceTree = "<group>";
+		};
+		C8E92B991D9A61760087765B /* SearchPanel */ = {
+			isa = PBXGroup;
+			children = (
+				C8E92B9A1D9A61920087765B /* IASearchPanelView.h */,
+				C8E92B9B1D9A61920087765B /* IASearchPanelView.m */,
+			);
+			name = SearchPanel;
+			sourceTree = "<group>";
+		};
+		C8E92B9D1D9A61E70087765B /* FetchSong */ = {
+			isa = PBXGroup;
+			children = (
+				C8E92BA11D9A62AF0087765B /* Cells */,
+				C8E92B9E1D9A627D0087765B /* IAFetchSongsViewController.h */,
+				C8E92B9F1D9A627D0087765B /* IAFetchSongsViewController.m */,
+			);
+			name = FetchSong;
+			sourceTree = "<group>";
+		};
+		C8E92BA11D9A62AF0087765B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C8E92BA21D9A62D60087765B /* IASongTableViewCell.h */,
+				C8E92BA31D9A62D60087765B /* IASongTableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		C8E92BA51D9A63100087765B /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				C8E92BA61D9A63420087765B /* IAPlayerViewController.h */,
+				C8E92BA71D9A63420087765B /* IAPlayerViewController.m */,
+				C8E92BA91D9A63960087765B /* IAPlayerView.h */,
+				C8E92BAA1D9A63960087765B /* IAPlayerView.m */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8E92B531D9A5EBF0087765B /* ItunceApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8E92B811D9A5EBF0087765B /* Build configuration list for PBXNativeTarget "ItunceApp" */;
+			buildPhases = (
+				F00D472381F947878B13B26D /* [CP] Check Pods Manifest.lock */,
+				C8E92B501D9A5EBF0087765B /* Sources */,
+				C8E92B511D9A5EBF0087765B /* Frameworks */,
+				C8E92B521D9A5EBF0087765B /* Resources */,
+				5ADF0591415B1481B342359D /* [CP] Embed Pods Frameworks */,
+				BAF70FCD5137C28C177B51E7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ItunceApp;
+			productName = ItunceApp;
+			productReference = C8E92B541D9A5EBF0087765B /* ItunceApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8E92B6C1D9A5EBF0087765B /* ItunceAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8E92B841D9A5EBF0087765B /* Build configuration list for PBXNativeTarget "ItunceAppTests" */;
+			buildPhases = (
+				C8E92B691D9A5EBF0087765B /* Sources */,
+				C8E92B6A1D9A5EBF0087765B /* Frameworks */,
+				C8E92B6B1D9A5EBF0087765B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8E92B6F1D9A5EBF0087765B /* PBXTargetDependency */,
+			);
+			name = ItunceAppTests;
+			productName = ItunceAppTests;
+			productReference = C8E92B6D1D9A5EBF0087765B /* ItunceAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C8E92B771D9A5EBF0087765B /* ItunceAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8E92B871D9A5EBF0087765B /* Build configuration list for PBXNativeTarget "ItunceAppUITests" */;
+			buildPhases = (
+				C8E92B741D9A5EBF0087765B /* Sources */,
+				C8E92B751D9A5EBF0087765B /* Frameworks */,
+				C8E92B761D9A5EBF0087765B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8E92B7A1D9A5EBF0087765B /* PBXTargetDependency */,
+			);
+			name = ItunceAppUITests;
+			productName = ItunceAppUITests;
+			productReference = C8E92B781D9A5EBF0087765B /* ItunceAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8E92B4C1D9A5EBF0087765B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IA;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Zhutenkov Alexei";
+				TargetAttributes = {
+					C8E92B531D9A5EBF0087765B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C8E92B6C1D9A5EBF0087765B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C8E92B531D9A5EBF0087765B;
+					};
+					C8E92B771D9A5EBF0087765B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C8E92B531D9A5EBF0087765B;
+					};
+				};
+			};
+			buildConfigurationList = C8E92B4F1D9A5EBF0087765B /* Build configuration list for PBXProject "ItunceApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8E92B4B1D9A5EBF0087765B;
+			productRefGroup = C8E92B551D9A5EBF0087765B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8E92B531D9A5EBF0087765B /* ItunceApp */,
+				C8E92B6C1D9A5EBF0087765B /* ItunceAppTests */,
+				C8E92B771D9A5EBF0087765B /* ItunceAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8E92B521D9A5EBF0087765B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E92B8C1D9A603E0087765B /* Assets.xcassets in Resources */,
+				C8E92BBD1D9A667A0087765B /* Localizable.strings in Resources */,
+				C8E92B671D9A5EBF0087765B /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8E92B6B1D9A5EBF0087765B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8E92B761D9A5EBF0087765B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5ADF0591415B1481B342359D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ItunceApp/Pods-ItunceApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAF70FCD5137C28C177B51E7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ItunceApp/Pods-ItunceApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F00D472381F947878B13B26D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8E92B501D9A5EBF0087765B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E92BA41D9A62D60087765B /* IASongTableViewCell.m in Sources */,
+				C8E92BAB1D9A63960087765B /* IAPlayerView.m in Sources */,
+				C8E92BA01D9A627D0087765B /* IAFetchSongsViewController.m in Sources */,
+				C8E92BB71D9A64E10087765B /* IAResponse.m in Sources */,
+				C8E92B5C1D9A5EBF0087765B /* AppDelegate.m in Sources */,
+				C8E92B591D9A5EBF0087765B /* main.m in Sources */,
+				C8E92BAE1D9A63E00087765B /* IAErrorHandler.m in Sources */,
+				C8E92B9C1D9A61920087765B /* IASearchPanelView.m in Sources */,
+				C8E92BB41D9A64940087765B /* IASongResult.m in Sources */,
+				C8E92BA81D9A63420087765B /* IAPlayerViewController.m in Sources */,
+				C8E92BB11D9A643D0087765B /* IANetworkManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8E92B691D9A5EBF0087765B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E92B721D9A5EBF0087765B /* ItunceAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8E92B741D9A5EBF0087765B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E92B7D1D9A5EBF0087765B /* ItunceAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8E92B6F1D9A5EBF0087765B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8E92B531D9A5EBF0087765B /* ItunceApp */;
+			targetProxy = C8E92B6E1D9A5EBF0087765B /* PBXContainerItemProxy */;
+		};
+		C8E92B7A1D9A5EBF0087765B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8E92B531D9A5EBF0087765B /* ItunceApp */;
+			targetProxy = C8E92B791D9A5EBF0087765B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C8E92B651D9A5EBF0087765B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8E92B661D9A5EBF0087765B /* Base */,
+				C8E92BBA1D9A66380087765B /* ru */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C8E92BBB1D9A667A0087765B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8E92BBC1D9A667A0087765B /* Base */,
+				C819D40F1D9A669E00138B2E /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8E92B7F1D9A5EBF0087765B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8E92B801D9A5EBF0087765B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8E92B821D9A5EBF0087765B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE70D1703C05A7D865A248B8 /* Pods-ItunceApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ItunceApp/IAPrefix.pch;
+				INFOPLIST_FILE = ItunceApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.azh.itunce.testapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C8E92B831D9A5EBF0087765B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18EE47C78B253D10E64D2C12 /* Pods-ItunceApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ItunceApp/IAPrefix.pch;
+				INFOPLIST_FILE = ItunceApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.azh.itunce.testapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C8E92B851D9A5EBF0087765B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ItunceAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.azh.itunce.testapp.ItunceAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ItunceApp.app/ItunceApp";
+			};
+			name = Debug;
+		};
+		C8E92B861D9A5EBF0087765B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ItunceAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.azh.itunce.testapp.ItunceAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ItunceApp.app/ItunceApp";
+			};
+			name = Release;
+		};
+		C8E92B881D9A5EBF0087765B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ItunceAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.azh.itunce.testapp.ItunceAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ItunceApp;
+			};
+			name = Debug;
+		};
+		C8E92B891D9A5EBF0087765B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ItunceAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.azh.itunce.testapp.ItunceAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ItunceApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8E92B4F1D9A5EBF0087765B /* Build configuration list for PBXProject "ItunceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8E92B7F1D9A5EBF0087765B /* Debug */,
+				C8E92B801D9A5EBF0087765B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8E92B811D9A5EBF0087765B /* Build configuration list for PBXNativeTarget "ItunceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8E92B821D9A5EBF0087765B /* Debug */,
+				C8E92B831D9A5EBF0087765B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8E92B841D9A5EBF0087765B /* Build configuration list for PBXNativeTarget "ItunceAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8E92B851D9A5EBF0087765B /* Debug */,
+				C8E92B861D9A5EBF0087765B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8E92B871D9A5EBF0087765B /* Build configuration list for PBXNativeTarget "ItunceAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8E92B881D9A5EBF0087765B /* Debug */,
+				C8E92B891D9A5EBF0087765B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8E92B4C1D9A5EBF0087765B /* Project object */;
+}
